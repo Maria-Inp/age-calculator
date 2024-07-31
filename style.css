@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 60px 0;
+}
+
+.input-value {
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgb(165, 159, 159);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.45) inset;   
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.calculate {
+    width: 100px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(165, 159, 159);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calculate:hover {
+    transform: scale(1.1);
+}
